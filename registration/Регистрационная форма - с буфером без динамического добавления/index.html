@@ -23,7 +23,7 @@
     
     
       
-        <title>Регистрационная форма — с буфером и ,tp lbyfvbxtcrjuj lj,fdktybz - WorkWiki</title>
+        <title>Регистрационная форма — с буфером и без динамического добавления - WorkWiki</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tp-lbyfvbxtcrjuj-ljfdktybz" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Регистрационная форма — с буфером и ,tp lbyfvbxtcrjuj lj,fdktybz
+              Регистрационная форма — с буфером и без динамического добавления
             
           </span>
         </div>
@@ -468,7 +468,7 @@
   <span class="md-ellipsis">
     
   
-    Регистрационная форма — с буфером и ,tp lbyfvbxtcrjuj lj,fdktybz
+    Регистрационная форма — с буфером и без динамического добавления
   
 
     
@@ -486,7 +486,7 @@
   <span class="md-ellipsis">
     
   
-    Регистрационная форма — с буфером и ,tp lbyfvbxtcrjuj lj,fdktybz
+    Регистрационная форма — с буфером и без динамического добавления
   
 
     
@@ -512,7 +512,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         📌 Базовый шаблон
@@ -523,7 +523,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         📎 Начальная настройка
@@ -535,7 +535,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         Шаблон формы
@@ -546,7 +546,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Алгоритм
@@ -970,7 +970,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         📌 Базовый шаблон
@@ -981,7 +981,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
         📎 Начальная настройка
@@ -993,7 +993,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
         Шаблон формы
@@ -1004,7 +1004,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Алгоритм
@@ -1036,16 +1036,16 @@
 
 
 
-<h1 id="tp-lbyfvbxtcrjuj-ljfdktybz">Регистрационная форма — с буфером и ,tp lbyfvbxtcrjuj lj,fdktybz</h1>
-<h2 id="_1">📌 Базовый шаблон</h2>
+<h1 id="_1">Регистрационная форма — с буфером и без динамического добавления</h1>
+<h2 id="_2">📌 Базовый шаблон</h2>
 <p>При динамическом добавлении строка <strong>ОБЯЗАТЕЛЬНО</strong> указывается внутри цикла с пометкой <code>ОтложенноеЗаполнениеУчастников</code>.</p>
 <p><strong>Шаблон макета анкеты:</strong> Тест нагрузки_<br />
 <strong>Код:</strong> <code>000000344</code>
 Добавление участников в мероприятие происходит не напрямую, а через буферный регистр на этапе 1С.</p>
-<h2 id="_2">📎 Начальная настройка</h2>
+<h2 id="_3">📎 Начальная настройка</h2>
 <p>Для организации первичной записи в буфер, необходимо установить галочку на против параметра «Отложенное заполнение участников» при создании мероприятия в 1С.</p>
 <p>Также, для корректной работы анкеты, необходимо соблюдение параметров алгоритма. Не все строки алгоритма работают корректно для буфера.</p>
-<h3 id="_3">Шаблон формы</h3>
+<h3 id="_4">Шаблон формы</h3>
 <pre><code class="language-json">
 &quot;form&quot;: [
 {
@@ -1101,7 +1101,7 @@
 }
 ]
 </code></pre>
-<h3 id="_4">Алгоритм</h3>
+<h3 id="_5">Алгоритм</h3>
 <pre><code class="language-1с">///////////////////////////////////////////////////
 попытка
     СтатусыРассмотренияЗаявки = Перечисления.СтатусыРассмотренияЗаявки.Принят;
