@@ -1,0 +1,21 @@
+site_name: Моя Вики
+nav:
+  - Главная: index.md
+  - Анкеты регистрации:
+      - registration/Регистрационная форма - без буфера и без динамического добавления (новое).md
+      - registration/Регистрационная форма - без буфера с динамическим добавлением.md
+      - registration/Регистрационная форма - с буфером без динамического добавления.md
+      - registration/Регистрационные формы - 4 вида.md
+  - Wizard:
+      - Wizard/Wizard - добавление кнопок для изменения статусов кураторам в ЛК.md
+      - Wizard/Wizard - необязательное добаление файла.md
+      - Wizard/Wizard - переключатели (ветвление) формы подачи документов.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search
+markdown_extensions:
+  - tables
+  - fenced_code
+  - codehilite
