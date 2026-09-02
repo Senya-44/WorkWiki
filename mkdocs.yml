@@ -1,4 +1,4 @@
-site_name: Моя Вики
+site_name: WorkWiki
 nav:
   - Главная: index.md
   - Анкеты регистрации:
@@ -15,7 +15,3 @@ theme:
   features:
     - navigation.tabs
     - search
-markdown_extensions:
-  - tables
-  - fenced_code
-  - codehilite
