@@ -12,6 +12,8 @@ site_name: WorkWiki
 
 **Код:** `000000883`
 
+---
+
 ## 🧙 Wizard
 
 ```

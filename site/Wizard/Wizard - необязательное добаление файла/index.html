@@ -765,6 +765,17 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
+        🔥 Ключевые элементы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         🖼️ Отображение
       
     </span>
@@ -1133,6 +1144,17 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
+        🔥 Ключевые элементы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         🖼️ Отображение
       
     </span>
@@ -1315,7 +1337,35 @@
 }
 </code></pre>
 <hr />
-<h2 id="_3">🖼️ Отображение</h2>
+<h2 id="_3">🔥 Ключевые элементы</h2>
+<ul>
+<li>
+<p>[required: false — поле не обязательное]</p>
+</li>
+<li>
+<p>[StepGUID — идентификатор шага]</p>
+</li>
+</ul>
+<pre><code>    ...
+    {
+        &quot;key&quot;: 4,
+        &quot;type&quot;: &quot;getDocs&quot;,
+        &quot;required&quot;: false, ==ОБЯЗАТЕЛЬНО==
+        &quot;view&quot;: {
+            &quot;kind&quot;: &quot;html&quot;,
+            &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-description\&quot;&gt;Укажите сведения о наличии достижений для предоставления льготы. Если участник является победителем муниципального этапа олимпиад по биологии, экологии, химии - прикрепите подтверждающие документы.&lt;/div&gt;&quot;
+        },
+        &quot;typeDocs&quot;: [
+            &quot;46912a89-3d9c-11f1-a85f-005056b8fc44&quot;
+        ],
+        &quot;name&quot;: &quot;Диплом олимпиады&quot;,
+        &quot;StepGUID&quot;: &quot;790127e7-c36d-42ff-a175-7baedf991dd0&quot; ==ОБЯЗАТЕЛЬНО==
+    },
+    ...
+
+</code></pre>
+<hr />
+<h2 id="_4">🖼️ Отображение</h2>
 <p>На стороне пользователя, данное решение позволяет или прикрепить файл, при его наличии, или пропустить шаг. Может применяться для предоставления документов о наличии льгот или дипломов олимпиад.</p>
 
 
