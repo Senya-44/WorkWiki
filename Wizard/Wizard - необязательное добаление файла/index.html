@@ -23,7 +23,7 @@
     
     
       
-        <title>Wizard необязательное добаление файла - WorkWiki</title>
+        <title>Wizard - пропуск шага с добавлением файла - WorkWiki</title>
       
     
     
@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#wizard-" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Wizard   необязательное добаление файла
+              Wizard - пропуск шага с добавлением файла
             
           </span>
         </div>
@@ -670,6 +675,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard - пропуск шага с добавлением файла
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -678,7 +703,7 @@
   <span class="md-ellipsis">
     
   
-    Wizard   необязательное добаление файла
+    Wizard - пропуск шага с добавлением файла
   
 
     
@@ -687,6 +712,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📎 Общее описание
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Пример использования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧙 Wizard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🖼️ Отображение
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -999,6 +1087,60 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📎 Общее описание
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Пример использования
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wizard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧙 Wizard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🖼️ Отображение
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1015,24 +1157,166 @@
 
 
 
-  <h1>Wizard   необязательное добаление файла</h1>
-
+<h1 id="wizard-">Wizard - пропуск шага с добавлением файла</h1>
+<h2 id="_1">📎 Общее описание</h2>
 <p>Конструкция позволяет пропустить шаг с добавлением файла, если этот файл является необязательным в рамках мероприятия.</p>
-<p>Шаблон мероприятия в 1С: Летняя биологическая школа – 2026</p>
-<p>Код: 000000883</p>
-<p>Wizard:</p>
-<table>
-<thead>
-<tr>
-<th>{ "version": 0.13, "DocState": { "Pending": "43142b94-34f1-11f1-a85f-005056b8fc44", "Accepted": "43142b95-34f1-11f1-a85f-005056b8fc44", "Rejected": "b213961b-43b3-11f1-a85f-005056b8fc44" }, "customFilter": [ { "show_badge": true, "key": "need_hostel", "type": "boolean", "label": "Проживание", "title": "Нуждаемость в проживании", "mode": "checkbox", "multi": true, "selection_rule": "exclusive_false", "LineWizardGUID": "618db432-73dc-4e6c-a291-b47b3dc29171", "prop": { "name": "AccommodationFormat", "bool_map": { "true": "Нужно проживание", "false": "Без проживания" } } } ], "Stages": [ { "Name": "WizardStep1", "accrual_month": "2026-06-01", "WizardStageGUID": "ba7d63d9-3361-11f1-8fdd-005056b872b3", "Start": { "Stage": "WizardStep1", "Status": "InProgress" }, "End": { "Success": { "Stage": "WizardStep1", "Status": "Accept" }, "Fail": { "Stage": "WizardStep1", "Status": "Reject", "display":true } }, "Correction": { "Stage": "WizardStep1", "Status": "OnCorrection" }, "Review": { "Stage": "WizardStep1", "Status": "OnReview" }, "IsMember": { "Stage": "WizardStep1", "Status": "IsMember" }, "WizardSteps": [ { "key": 1, "type": "welcome", "name": "Загрузка документов на ''Летнюю биологическую смену 2026''", "required": true, "view": { "kind": "html", "html": "<div class=\\"welcome-step-header\\">\n <p class=\\"welcome-step-description\\">Подготовьте документы указанные в списке ниже (при наличии):</p>\n</div>\n<div class=\\"welcome-step-grid\\">\n <div class=\\"welcome-step-section\\">\n <h3 class=\\"welcome-step-section-title\\">Список документов:</h3>\n <ul class=\\"welcome-step-list\\">\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\">Диплом победителя олимпиады по биологии, экологии и/или химии;</span>\n </li>\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\">Справка от Соцзащиты (о признании семьи/гражданина малоимущей(им).</span>\n </li>\n </ul>\n </div>\n <div class=\\"welcome-step-section\\">\n <h3 class=\\"welcome-step-section-title\\">Как всё устроено:</h3>\n <ul class=\\"welcome-step-list\\">\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\"> Заполните все поля в каждом шаге мастера, где это необходимо</span>\n </li>\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\"> Прикрепите файлы документов (при наличии)</span>\n </li>\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\"> По окончанию подачи документов ожидайте результатов проверки и ссылку на оплату</span>\n </li>\n <li class=\\"welcome-step-list-item\\">\n <span class=\\"welcome-step-text\\"> Уведомления будут направлены на адрес электронной почты, указанной при регистраиции</span>\n </li>\n </ul>\n </div>\n <h3 class=\\"welcome-step-section-title2\\">ВАЖНО! РЕБЕНОК СЧИТАЕТСЯ ЗАЧИСЛЕННЫМ НА СМЕНУ ТОЛЬКО ПОСЛЕ ОПЛАТЫ!</h3>\n </div>" } }, … { "key": 4, "type": "getDocs", "required": false, "view": { "kind": "html", "html": "<div class=\\"welcome-step-description\\">Укажите сведения о наличии достижений для предоставления льготы. Если участник является победителем муниципального этапа олимпиад по биологии, экологии, химии - прикрепите подтверждающие документы.</div>" }, "typeDocs": [ "46912a89-3d9c-11f1-a85f-005056b8fc44" ], "name": "Диплом олимпиады", "StepGUID": "790127e7-c36d-42ff-a175-7baedf991dd0" }, { "key": 5, "type": "getDocs", "required": false, "view": { "kind": "html", "html": "<div class=\\"welcome-step-description\\">Укажите сведения о наличии статуса малоимущей семьи. Если у родителя участника есть справка о признании семьи (гражданина) малоимущей(им), прикрепите подтверждающие документы.</div>" }, "typeDocs": [ "46912a89-3d9c-11f1-a85f-005056b8fc44" ], "name": "Справка от соцзащиты", "StepGUID": "2b11b88f-a30c-4ab3-ad30-e00b4a7498f4" } ] } ] }</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
+<hr />
+<h2 id="_2">📌 Пример использования</h2>
+<p><strong>Шаблон мероприятия в 1С:</strong> Летняя биологическая школа – 2026</p>
+<p><strong>Код:</strong> <code>000000883</code></p>
+<h2 id="wizard">🧙 Wizard</h2>
+<pre><code>{
+    &quot;version&quot;: 0.13,
+    &quot;DocState&quot;: {
+        &quot;Pending&quot;: &quot;43142b94-34f1-11f1-a85f-005056b8fc44&quot;,
+        &quot;Accepted&quot;: &quot;43142b95-34f1-11f1-a85f-005056b8fc44&quot;,
+        &quot;Rejected&quot;: &quot;b213961b-43b3-11f1-a85f-005056b8fc44&quot;
+    },
+&quot;customFilter&quot;: [
+{
+&quot;show_badge&quot;: true,
+  &quot;key&quot;: &quot;need_hostel&quot;,
+  &quot;type&quot;: &quot;boolean&quot;,
+  &quot;label&quot;: &quot;Проживание&quot;,
+  &quot;title&quot;: &quot;Нуждаемость в проживании&quot;,
+  &quot;mode&quot;: &quot;checkbox&quot;,
+  &quot;multi&quot;: true,
+  &quot;selection_rule&quot;: &quot;exclusive_false&quot;,
+  &quot;LineWizardGUID&quot;: &quot;618db432-73dc-4e6c-a291-b47b3dc29171&quot;,
+  &quot;prop&quot;: {
+    &quot;name&quot;: &quot;AccommodationFormat&quot;,
+    &quot;bool_map&quot;: {
+      &quot;true&quot;: &quot;Нужно проживание&quot;,
+      &quot;false&quot;: &quot;Без проживания&quot;
+    }
+  }
+}
+],
+    &quot;Stages&quot;: [
+        {
+            &quot;Name&quot;: &quot;WizardStep1&quot;,
+            &quot;accrual_month&quot;: &quot;2026-06-01&quot;,
+            &quot;WizardStageGUID&quot;: &quot;ba7d63d9-3361-11f1-8fdd-005056b872b3&quot;,
+            &quot;Start&quot;: {
+                &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                &quot;Status&quot;: &quot;InProgress&quot;
+            },
+            &quot;End&quot;: {
+                &quot;Success&quot;: {
+                    &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                    &quot;Status&quot;: &quot;Accept&quot;
+                },
+                &quot;Fail&quot;: {
+                    &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                    &quot;Status&quot;: &quot;Reject&quot;,
+&quot;display&quot;:true
+                }
+            },
+            &quot;Correction&quot;: {
+                &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                &quot;Status&quot;: &quot;OnCorrection&quot;
+            },
+            &quot;Review&quot;: {
+                &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                &quot;Status&quot;: &quot;OnReview&quot;
+            },
+            &quot;IsMember&quot;: {
+                &quot;Stage&quot;: &quot;WizardStep1&quot;,
+                &quot;Status&quot;: &quot;IsMember&quot;
+            },
+            &quot;WizardSteps&quot;: [
+                {
+                    &quot;key&quot;: 1,
+                    &quot;type&quot;: &quot;welcome&quot;,
+                    &quot;name&quot;: &quot;Загрузка документов на ''Летнюю биологическую смену 2026''&quot;,
+                    &quot;required&quot;: true,
+                    &quot;view&quot;: {
+                        &quot;kind&quot;: &quot;html&quot;,
+                        &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-header\&quot;&gt;\n  &lt;p class=\&quot;welcome-step-description\&quot;&gt;Подготовьте документы указанные в списке ниже (при наличии):&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\&quot;welcome-step-grid\&quot;&gt;\n  &lt;div class=\&quot;welcome-step-section\&quot;&gt;\n    &lt;h3 class=\&quot;welcome-step-section-title\&quot;&gt;Список документов:&lt;/h3&gt;\n    &lt;ul class=\&quot;welcome-step-list\&quot;&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt;Диплом победителя олимпиады по биологии, экологии и/или химии;&lt;/span&gt;\n      &lt;/li&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt;Справка от Соцзащиты (о признании семьи/гражданина малоимущей(им).&lt;/span&gt;\n      &lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div class=\&quot;welcome-step-section\&quot;&gt;\n    &lt;h3 class=\&quot;welcome-step-section-title\&quot;&gt;Как всё устроено:&lt;/h3&gt;\n    &lt;ul class=\&quot;welcome-step-list\&quot;&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt; Заполните все поля в каждом шаге мастера, где это необходимо&lt;/span&gt;\n      &lt;/li&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt; Прикрепите файлы документов (при наличии)&lt;/span&gt;\n      &lt;/li&gt;\n          &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt; По окончанию подачи документов ожидайте результатов проверки и ссылку на оплату&lt;/span&gt;\n      &lt;/li&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt; Уведомления будут направлены на адрес электронной почты, указанной при регистраиции&lt;/span&gt;\n      &lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n   &lt;h3 class=\&quot;welcome-step-section-title2\&quot;&gt;ВАЖНО! РЕБЕНОК СЧИТАЕТСЯ ЗАЧИСЛЕННЫМ НА СМЕНУ ТОЛЬКО ПОСЛЕ ОПЛАТЫ!&lt;/h3&gt;\n   &lt;/div&gt;&quot;
+                    }
+                },
+                {
+                    &quot;key&quot;: 2,
+                    &quot;type&quot;: &quot;getDocs&quot;,
+                    &quot;required&quot;: true,
+                    &quot;requireFile&quot;: false,
+                    &quot;view&quot;: {
+                        &quot;kind&quot;: &quot;html&quot;,
+                        &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-header\&quot;&gt;\n  &lt;p class=\&quot;welcome-step-description\&quot;&gt;Летняя смена имеет ограничения для участников. Укажите школу и  какой класс окончен участником. &lt;br&gt;Принять участие могут:&lt;/p&gt;\n&lt;/div&gt;\n&lt;div class=\&quot;welcome-step-grid\&quot;&gt;\n  &lt;div class=\&quot;welcome-step-section\&quot;&gt;\n    &lt;h3 class=\&quot;welcome-step-section-title\&quot;&gt;Лицеисты, в 2026 году поступающие в:&lt;/h3&gt;\n    &lt;ul class=\&quot;welcome-step-list\&quot;&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt;6 класс - без ограничений;&lt;/span&gt;\n      &lt;/li&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt;7-9 классы химико-биологического и биофизического направления.&lt;/span&gt;\n      &lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div class=\&quot;welcome-step-section\&quot;&gt;\n    &lt;h3 class=\&quot;welcome-step-section-title\&quot;&gt;Поступившие в рамках приемной кампании в 2026 году в:&lt;/h3&gt;\n    &lt;ul class=\&quot;welcome-step-list\&quot;&gt;\n      &lt;li class=\&quot;welcome-step-list-item\&quot;&gt;\n        &lt;span class=\&quot;welcome-step-text\&quot;&gt;7-9 классы химико-биологического и биофизического направления.&lt;/span&gt;\n      &lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/div&gt;\n  &lt;div class=\&quot;welcome-step-section\&quot;&gt;\n   &lt;/div&gt;&quot;
+                    },
+                    &quot;typeDocs&quot;: [
+                        &quot;46912a89-3d9c-11f1-a85f-005056b8fc44&quot;
+                    ],
+                    &quot;name&quot;: &quot;Условия участия&quot;,
+                    &quot;StepGUID&quot;: &quot;d651bdad-ee05-458d-8e76-0fe4fdb021a8&quot;,
+                    &quot;ext&quot;: [
+                        {
+                            &quot;View&quot;: &quot;В какой класс переходите или в какой класс приглашены&quot;,
+                            &quot;Type&quot;: &quot;8bfaa960-33f2-11f1-8fdd-005056b872b3&quot;,
+                            &quot;Visibility&quot;: true,
+                            &quot;ParamName&quot;: &quot;finishedClass&quot;
+                        }
+                    ]
+                },
+                {
+                    &quot;key&quot;: 3,
+                    &quot;type&quot;: &quot;getDocs&quot;,
+                    &quot;required&quot;: true,
+                    &quot;requireFile&quot;: false,
+                    &quot;view&quot;: {
+                        &quot;kind&quot;: &quot;html&quot;,
+                        &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-description\&quot;&gt;Летняя школа имеет два формата проведения - с проживанием и без. Укажите, в каком формате вы будете принимать участие.&lt;/div&gt;&quot;
+                    },
+                    &quot;typeDocs&quot;: [
+                        &quot;46912a89-3d9c-11f1-a85f-005056b8fc44&quot;
+                    ],
+                    &quot;name&quot;: &quot;Формат участия&quot;,
+                    &quot;StepGUID&quot;: &quot;618db432-73dc-4e6c-a291-b47b3dc29171&quot;,
+                    &quot;ext&quot;: [
+                        {
+                            &quot;View&quot;: &quot;Формат участия&quot;,
+                            &quot;Type&quot;: &quot;6c791b26-4474-11f1-a85f-005056b8fc44&quot;,
+                            &quot;Visibility&quot;: true,
+                            &quot;ParamName&quot;: &quot;AccommodationFormat&quot;
+                        }
+                    ]
+                },
+                {
+                    &quot;key&quot;: 4,
+                    &quot;type&quot;: &quot;getDocs&quot;,
+                    **&quot;required&quot;: false,**
+                    &quot;view&quot;: {
+                        &quot;kind&quot;: &quot;html&quot;,
+                        &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-description\&quot;&gt;Укажите сведения о наличии достижений для предоставления льготы. Если участник является победителем муниципального этапа олимпиад по биологии, экологии, химии - прикрепите подтверждающие документы.&lt;/div&gt;&quot;
+                    },
+                    &quot;typeDocs&quot;: [
+                        &quot;46912a89-3d9c-11f1-a85f-005056b8fc44&quot;
+                    ],
+                    &quot;name&quot;: &quot;Диплом олимпиады&quot;,
+                    **&quot;StepGUID&quot;: &quot;790127e7-c36d-42ff-a175-7baedf991dd0&quot;**
+                },
+                {
+                    &quot;key&quot;: 5,
+                    &quot;type&quot;: &quot;getDocs&quot;,
+                    **&quot;required&quot;: false,**
+                    &quot;view&quot;: {
+                        &quot;kind&quot;: &quot;html&quot;,
+                        &quot;html&quot;: &quot;&lt;div class=\&quot;welcome-step-description\&quot;&gt;Укажите сведения о наличии статуса малоимущей семьи. Если у родителя участника есть справка о признании семьи (гражданина) малоимущей(им), прикрепите подтверждающие документы.&lt;/div&gt;&quot;
+                    },
+                    &quot;typeDocs&quot;: [
+                        &quot;46912a89-3d9c-11f1-a85f-005056b8fc44&quot;
+                    ],
+                    &quot;name&quot;: &quot;Справка от соцзащиты&quot;,
+                    **&quot;StepGUID&quot;: &quot;2b11b88f-a30c-4ab3-ad30-e00b4a7498f4&quot;**
+                }
+            ]
+        }
+    ]
+}
+</code></pre>
+<hr />
+<h2 id="_3">🖼️ Отображение</h2>
+<p>На стороне пользователя, данное решение позволяет или прикрепить файл, при его наличии, или пропустить шаг. Может применяться для предоставления документов о наличии льгот или дипломов олимпиад.</p>
 
 
 
