@@ -905,6 +905,39 @@
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
+        ДАТА РОЖДЕНИЯ РОДИТЕЛЯ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        АДРЕС РЕГИСТРАЦИИ РОДИТЕЛЯ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        НОМЕР ТЕЛЕФОНА И ПОЧТА РОДИТЕЛЕЙ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ
       
     </span>
@@ -1515,6 +1548,39 @@
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
+        ДАТА РОЖДЕНИЯ РОДИТЕЛЯ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        АДРЕС РЕГИСТРАЦИИ РОДИТЕЛЯ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        НОМЕР ТЕЛЕФОНА И ПОЧТА РОДИТЕЛЕЙ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ
       
     </span>
@@ -1605,48 +1671,40 @@
       &quot;issuedBy&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;statementPassport.issuedBy&quot; },
       &quot;issueDate&quot;: { &quot;op&quot;: &quot;formatDate&quot;, &quot;value&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;statementPassport.issueDate&quot; }, &quot;format&quot;: &quot;dd.MM.yyyy&quot; }
     },
- ```
+</code></pre>
+<h2 id="_9">ДАТА РОЖДЕНИЯ РОДИТЕЛЯ</h2>
+<pre><code>    &quot;statement_parent_birth_date&quot;: { 
+      &quot;op&quot;: &quot;formatDate&quot;, 
+      &quot;value&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;statementPassport.birthDate&quot; }, 
+      &quot;format&quot;: &quot;dd.MM.yyyy&quot; 
+    },
+</code></pre>
+<h2 id="_10">АДРЕС РЕГИСТРАЦИИ РОДИТЕЛЯ</h2>
+<pre><code>    &quot;statement_parent_reg_address&quot;: { 
+      &quot;source&quot;: &quot;wizard&quot;, 
+      &quot;path&quot;: &quot;statementPassport.registrationAddress&quot; 
+    },
 
-## ДАТА РОЖДЕНИЯ РОДИТЕЛЯ
-</code></pre>
-<pre><code>"statement_parent_birth_date": { 
-  "op": "formatDate", 
-  "value": { "source": "wizard", "path": "statementPassport.birthDate" }, 
-  "format": "dd.MM.yyyy" 
-},
-</code></pre>
-<pre><code>
-## АДРЕС РЕГИСТРАЦИИ РОДИТЕЛЯ
-
-</code></pre>
-<pre><code>"statement_parent_reg_address": { 
-  "source": "wizard", 
-  "path": "statementPassport.registrationAddress" 
-},
-
-"statement_passport_source": { 
-  "source": "wizard", 
-  "path": "statement.parentPassportSource" 
-},
-"snils_number": { 
-  "source": "wizard", 
-  "path": "snils.number" 
-},
-</code></pre>
-<pre><code>
-## НОМЕР ТЕЛЕФОНА И ПОЧТА РОДИТЕЛЕЙ
+    &quot;statement_passport_source&quot;: { 
+      &quot;source&quot;: &quot;wizard&quot;, 
+      &quot;path&quot;: &quot;statement.parentPassportSource&quot; 
+    },
+    &quot;snils_number&quot;: { 
+      &quot;source&quot;: &quot;wizard&quot;, 
+      &quot;path&quot;: &quot;snils.number&quot; 
+    },
 
 </code></pre>
-<pre><code>"phone1": { "source": "wizard", "path": "parentPassport1.phone" },
-"phone2": { "source": "wizard", "path": "parentPassport2.phone" },
-"statement_phone": { "source": "wizard", "path": "statementPassport.phone" },
+<h2 id="_11">НОМЕР ТЕЛЕФОНА И ПОЧТА РОДИТЕЛЕЙ</h2>
+<pre><code>    &quot;phone1&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;parentPassport1.phone&quot; },
+    &quot;phone2&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;parentPassport2.phone&quot; },
+    &quot;statement_phone&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;statementPassport.phone&quot; },
 
-"email1": { "source": "wizard", "path": "parentPassport1.email" },
-"email2": { "source": "wizard", "path": "parentPassport2.email" },
-"statement_email": { "source": "wizard", "path": "statementPassport.email" },
+    &quot;email1&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;parentPassport1.email&quot; },
+    &quot;email2&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;parentPassport2.email&quot; },
+    &quot;statement_email&quot;: { &quot;source&quot;: &quot;wizard&quot;, &quot;path&quot;: &quot;statementPassport.email&quot; },
 </code></pre>
-<p>```</p>
-<h2 id="_9">ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ</h2>
+<h2 id="_12">ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ</h2>
 <p><code>"school_name": { "source": "static", "value": "название текущей школы" },
     "target_class": { "source": "static", "value": "5" },</code></p>
 
