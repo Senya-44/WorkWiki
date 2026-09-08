@@ -80,17 +80,18 @@
       "issuedBy": { "source": "wizard", "path": "statementPassport.issuedBy" },
       "issueDate": { "op": "formatDate", "value": { "source": "wizard", "path": "statementPassport.issueDate" }, "format": "dd.MM.yyyy" }
     },
- ```
+```
 
 ## ДАТА РОЖДЕНИЯ РОДИТЕЛЯ
+
 ```
     "statement_parent_birth_date": { 
       "op": "formatDate", 
       "value": { "source": "wizard", "path": "statementPassport.birthDate" }, 
       "format": "dd.MM.yyyy" 
     },
-    
-```
+```  
+
       
 ## АДРЕС РЕГИСТРАЦИИ РОДИТЕЛЯ
 
