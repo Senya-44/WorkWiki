@@ -39,6 +39,9 @@ nav:
   - Ошибки:
       - errors/index.md
       - errors/Ошибка - формирование счета на оплату в личном кабинете - нарушение связи договора.md
+  - Тестирование:
+      - tests/index.md
+      - tests/тестовые пользователи.md
 theme:
   name: material
   features:
